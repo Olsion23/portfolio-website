@@ -1,0 +1,61 @@
+body {
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+img.rounded-circle {
+    border: 3px solid #007 bff;
+}
+
+
+/* Hero Image Hover */
+.hero-img {
+  transition: transform 0.3s ease;
+}
+.hero-img:hover {
+  transform: scale(1.1);
+}
+
+/* Skill Card Hover */
+.skill-card {
+  transition: transform 0.3s, background-color 0.3s;
+}
+.skill-card:hover {
+  transform: translateY(-5px);
+  background-color: #e0f7fa;
+}
+
+/* Project Card Hover */
+.project-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Project Image Zoom */
+.project-img {
+  transition: transform 0.3s;
+}
+.project-card:hover .project-img {
+  transform: scale(1.05);
+}
+
+/* Contact Form Hover Shadow */
+.contact-form:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+}
